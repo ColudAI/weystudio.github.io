@@ -7,14 +7,14 @@ Wey has always been at the forefront of open source, believing in open source an
 
 ### Graphical programming, concise and aesthetically pleasing, making it easy to write code.
 
-![Wey micro code](https://github.com/Lt2023/Wey-Studio-public-/assets/122614217/d10c21c4-4bcb-4896-8a8e-969f9bc636b7)
+![Wey micro code](https://github.com/WeyStudio/weystudio.github.io/assets/122614217/275d6a6f-1bc1-4a2a-847b-93b017655142)
 
 
 ## 🆕2.Wey SAI
 
 ### Research and development, design, and integrated research platform.
 
-![Wey SAI](https://github.com/Lt2023/Wey-Studio-public-/assets/122614217/cc9b11ad-00de-4ffd-84e5-3d85c02d478b)
+![Wey SAI](https://github.com/WeyStudio/weystudio.github.io/assets/122614217/4d3aeb9c-a6cb-4798-b215-4c4892051fb7)
 
 
 
@@ -23,7 +23,8 @@ Wey has always been at the forefront of open source, believing in open source an
 
 ### This is the Android app developed by the Wey team
 
-![Weycoco](https://github.com/Lt2023/Wey-Studio-public-/assets/122614217/f4139def-d94a-417b-9e7b-173bb86408f3)
+
+![Weycoco](https://github.com/WeyStudio/weystudio.github.io/assets/122614217/e7789a36-92b0-4b23-ba14-279ba84ae8b0)
 
 
 
@@ -32,7 +33,8 @@ Wey has always been at the forefront of open source, believing in open source an
 
 ### New generation video platform, easy to get started and quickly deploy
 
-![云秒视频Web](https://github.com/Lt2023/Wey-Studio-public-/assets/122614217/ed85363d-dea4-4d1a-b218-8b917e26b805)
+![Cloud second video web](https://github.com/WeyStudio/weystudio.github.io/assets/122614217/b23faee5-4db8-4daf-9155-0d162428ec0c)
+
 
 
 ## The development team:
@@ -42,7 +44,7 @@ Wey has always been at the forefront of open source, believing in open source an
 ## License
 ### Wey adopts the Apache 2.0 open-source protocol
 
-## 🌟Further understanding Wey Studio (https://home.weycloud.top)
+## 🌟Further understanding Wey Studio (https://weycloud.top)
 
 You can find the corresponding file and clone it locally!
 
