@@ -17,8 +17,10 @@ hero:
 features:
   - title: AIColudAI-SAIright
     details: 与未来对话，探索无限可能
+    link: https://sai.coludai.cn
   - title: TK Forumleft
     details: 新一代互联网技术交流平台
+    link: https://forum.coludai.cn
   - title: CodeProright
     details: 新一代图形化编辑器
 ---
