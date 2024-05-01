@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Coludai Docs"
   text: "Coludai 官方文档"
-  tagline: My great project tagline
+  # tagline: My great project tagline
   actions:
     - theme: brand
       text: Markdown Examples
