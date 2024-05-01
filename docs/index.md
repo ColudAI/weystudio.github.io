@@ -5,21 +5,21 @@ layout: home
 hero:
   name: "Coludai Docs"
   text: "Coludai 官方文档"
-  # tagline: My great project tagline
+  tagline: 暂时没有文档
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 主页
+      link: /
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 暂时没有文档
+      link: /
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: AIColudAI-SAIright
+    details: 与未来对话，探索无限可能
+  - title: TK Forumleft
+    details: 新一代互联网技术交流平台
+  - title: CodeProright
+    details: 新一代图形化编辑器
 ---
 
