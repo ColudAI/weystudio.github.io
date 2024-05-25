@@ -22,7 +22,7 @@ export default defineConfig({
         text: '开始',
         items: [
           { text: '关于', link: '/about.md' },
-          { text: 'Getting Started', link: '/getting-started' } // GUN自己写去
+          { text: 'Getting Started', link: '/getting-started' } 
         ]
       }
       //示例-结束 
