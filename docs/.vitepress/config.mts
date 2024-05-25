@@ -17,6 +17,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/WeyStudio/weystudio.github.io' }
-    ]
+    ],
+    logo: '/logo.svg'
   }
 })
