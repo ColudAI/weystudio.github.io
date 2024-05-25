@@ -11,7 +11,7 @@ hero:
       text: 主页
       link: /
     - theme: alt
-      text: 暂时没有文档
+      text: 开发与规范
       link: /
 
 features:
@@ -23,7 +23,7 @@ features:
     link: https://forum.coludai.cn
   - title: CodePro
     details: 新一代图形化编辑器
-    link: https://forum.coludai.cn
-    
+    link: https://codepro.coludai.cn
+
 ---
 
