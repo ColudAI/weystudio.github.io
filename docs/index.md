@@ -6,6 +6,9 @@ hero:
   name: "Coludai Docs"
   text: "Coludai 官方开发文档"
   tagline: 文档
+  image:
+   src: https://img2.imgtp.com/2024/05/25/WNdbDY2s.png
+   alt: logo
   actions:
     - theme: brand
       text: 主页
@@ -25,11 +28,3 @@ features:
     details: 新一代图形化编辑器
     link: https://codepro.coludai.cn
 ---
- \
- \
- \
- \
- \
- \
-About
-***
