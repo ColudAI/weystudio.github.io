@@ -6,6 +6,9 @@ export default defineConfig({
   description: "Coludai 官方文档",
   ignoreDeadLinks: true,
   lastUpdated: true,
+  rewrites: {
+    'source/:page': 'destination/:page'
+  },
   themeConfig: {
     logo: 'https://img2.imgtp.com/2024/05/25/WNdbDY2s.png',
     search: {
@@ -23,8 +26,8 @@ export default defineConfig({
         text: '开始',
         items: [
           { text: '开发与规范', link: '/开发与规范.md' },
-          { text: 'Getting Started', link: '/getting-started' } 
-          //{ text: '新文档', link: '/new-document' } // 新增的文档链接
+          // { text: 'Getting Started', link: '/getting-started' } 
+          // { text: '新文档', link: '/new-document' } // 新增的文档链接
         ]
       }
       //示例-结束 
@@ -34,7 +37,6 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/WeyStudio/weystudio.github.io' }
-    ],
-    logo: '/logo.svg'
+    ]
   }
 })
