@@ -24,6 +24,5 @@ features:
   - title: CodePro
     details: 新一代图形化编辑器
     link: https://codepro.coludai.cn
-
 ---
 
