@@ -13,7 +13,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: '关于', link: '/about.md' } // 新增的文档按钮
+      { text: '文档', link: '/about.md' } // 新增的文档按钮
     ],
 
     sidebar: [
@@ -27,7 +27,7 @@ export default defineConfig({
       }
       //示例-结束 
 ,
-      { text: '关于', link: '/about.md' }
+      { text: '关于', link: '/开发与规范.md' }
     ],
 
     socialLinks: [
