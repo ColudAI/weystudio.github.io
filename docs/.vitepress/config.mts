@@ -23,6 +23,7 @@ export default defineConfig({
         items: [
           { text: '开发与规范', link: '/开发与规范.md' },
           { text: 'Getting Started', link: '/getting-started' } 
+          { text: '新文档', link: '/new-document' } // 新增的文档链接
         ]
       }
       //示例-结束 
