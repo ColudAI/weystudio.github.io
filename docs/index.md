@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Coludai Docs"
   text: "Coludai 官方文档"
-  tagline: 暂时没有文档
+  tagline: 文档
   actions:
     - theme: brand
       text: 主页
