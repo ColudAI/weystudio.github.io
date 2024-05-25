@@ -25,7 +25,7 @@ export default defineConfig({
           { text: 'Getting Started', link: '/getting-started' } // GUN自己写去
         ]
       }
-      //示例-结束
+      //示例-结束 
 ,
       { text: '关于', link: '/about.md' }
     ],
