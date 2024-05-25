@@ -8,7 +8,8 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '主页', link: '/' }
+      { text: '主页', link: '/' },
+      { text: '文档', link: '/docs/' } // 新增的文档按钮
     ],
 
     sidebar: [
