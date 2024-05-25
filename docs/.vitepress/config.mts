@@ -6,7 +6,7 @@ export default defineConfig({
   description: "Coludai 官方文档",
   ignoreDeadLinks: true,
   themeConfig: {
-    logo: '/logo.svg',
+    logo: 'https://img2.imgtp.com/2024/05/25/WNdbDY2s.png',
     search: {
       provider: 'local'
     },
