@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Coludai Docs",
   description: "Coludai 官方文档",
   ignoreDeadLinks: true,
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
