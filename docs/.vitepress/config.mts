@@ -33,6 +33,7 @@ export default defineConfig({
       }
       //示例-结束 
 ,
+      { text: 'Team', link: '/team.md' },
       { text: '关于', link: '/开发与规范.md' }
     ],
 
