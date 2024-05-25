@@ -21,7 +21,7 @@ export default defineConfig({
       {
         text: '开始',
         items: [
-          { text: '文档', link: '/about.md' },
+          { text: '开发与规范', link: '/开发与规范.md' },
           { text: 'Getting Started', link: '/getting-started' } 
         ]
       }
