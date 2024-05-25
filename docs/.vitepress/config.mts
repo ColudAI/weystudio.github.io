@@ -13,6 +13,17 @@ export default defineConfig({
     ],
 
     sidebar: [
+      //示例-开始
+      {
+        text: '开始',
+        items: [
+          { text: '关于', link: '/about.md' },
+          { text: 'Getting Started', link: '/getting-started' } // GUN自己写去
+        ]
+      }
+      //示例-结束
+,
+      { text: '关于', link: '/about.md' }
     ],
 
     socialLinks: [
