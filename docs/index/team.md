@@ -46,7 +46,7 @@ const members = [
   {
     avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=399551261&spec=640&img_type=jpg',
     name: '劳资去泥的',
-    title: '室长对象（工作室成员：^*^*&%&^$#^*）'
+    title: '室长对象'
   },
   {
     avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=1280993766&spec=640&img_type=jpg',
