@@ -21,21 +21,24 @@ export default defineConfig({
       { text: 'Team', link: '/index/team.md' }
     ],
 
-    sidebar: [
+    sidebar: {
       //示例-开始
-      {
-        text: '开始',
-        items: [
-          { text: '开发与规范', link: '/index/开发与规范.md' },
-          // { text: 'Getting Started', link: '/getting-started' } 
-          // { text: '新文档', link: '/new-document' } // 新增的文档链接
+      '/index/':[
+        {
+          text: '开始',
+          items: [
+            { text: '开发与规范', link: '/index/开发与规范.md' },
+            // { text: 'Getting Started', link: '/getting-started' } 
+            // { text: '新文档', link: '/new-document' } // 新增的文档链接
         ]
-      }
+        },
+        { text: 'Team', link: '/index/team.md' }
+      ]
       //示例-结束 
 ,
-      { text: 'Team', link: '/index/team.md' },
-      { text: '关于', link: '/index/开发与规范.md' }
-    ],
+      //{ text: 'Team', link: '/index/team.md' },
+      //{ text: '关于', link: '/index/开发与规范.md' }
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/WeyStudio/weystudio.github.io' }
