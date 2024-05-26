@@ -41,7 +41,8 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/WeyStudio/weystudio.github.io' }
+      { icon: 'github', link: 'https://github.com/WeyStudio/weystudio.github.io' },
+      { icon: 'twitter', link: 'https://twitter.com/Colud_AI'}
     ]
   }
 })
