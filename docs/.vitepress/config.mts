@@ -17,8 +17,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: '文档', link: '/开发与规范.html' }, // 新增的文档按钮
-      { text: 'Team', link: '/team.md' }
+      { text: '文档', link: '/index/开发与规范.html' }, // 新增的文档按钮
+      { text: 'Team', link: '/index/team.md' }
     ],
 
     sidebar: [
@@ -26,15 +26,15 @@ export default defineConfig({
       {
         text: '开始',
         items: [
-          { text: '开发与规范', link: '/开发与规范.md' },
+          { text: '开发与规范', link: '/index/开发与规范.md' },
           // { text: 'Getting Started', link: '/getting-started' } 
           // { text: '新文档', link: '/new-document' } // 新增的文档链接
         ]
       }
       //示例-结束 
 ,
-      { text: 'Team', link: '/team.md' },
-      { text: '关于', link: '/开发与规范.md' }
+      { text: 'Team', link: '/index/team.md' },
+      { text: '关于', link: '/index/开发与规范.md' }
     ],
 
     socialLinks: [

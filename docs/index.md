@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Coludai Docs"
   text: "Coludai 官方开发文档"
-  tagline: 文档
+  #tagline: 文档
   image:
    src: https://img2.imgtp.com/2024/05/25/WNdbDY2s.png
    alt: logo
@@ -15,7 +15,10 @@ hero:
       link: /
     - theme: alt
       text: 开发与规范
-      link: /
+      link: /index/开发与规范.md
+    - theme: alt
+      text: Team
+      link: /index/team.md
 
 features:
   - title: ColudAI-AI-SAIright
