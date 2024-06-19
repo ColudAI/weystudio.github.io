@@ -34,17 +34,7 @@ export default defineConfig({
         },
         { text: 'Team', link: '/index/team.md' }
       ]
-      //示例-结束 
-      '/project/':[
-        {
-          text: '项目',
-          items: [
-            { text: 'Md5', link: '/project/Md5.md' },
-            { text: 'Wey For COCO', link: '/project/wey-for-coco.md' } 
-            // { text: '新文档', link: '/new-document' } // 新增的文档链接
-        ]
-        }
-      ]
+      //示例-结束
 ,
       //{ text: 'Team', link: '/index/team.md' },
       //{ text: '关于', link: '/index/开发与规范.md' }
