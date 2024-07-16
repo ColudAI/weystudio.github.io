@@ -28,7 +28,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: 安装校验包
+      - name: 获取仓库内容
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # 如果未启用 lastUpdated，则不需要
@@ -40,7 +40,9 @@ jobs:
           node-version: 20
           cache: npm # 或 pnpm / yarn
       - name: 安装Node包VitePress
-        run: npm install vitepress
+        run: |
+        npm i -g vitepress
+        npm add -D vitepress
       - name: 安装Page
         uses: actions/configure-pages@v4
       - name: 安装依赖项，配置package-lock.json
