@@ -1,26 +1,26 @@
-# Markdown 扩展 {#markdown-extensions}
+# Markdown 扩展 markdown-extensions
 
 VitePress 带有内置的 Markdown 扩展。
 
-## 标题锚点 {#header-anchors}
+## 标题锚点 header-anchors
 
 标题会自动应用锚点。可以使用 `markdown.anchor` 选项配置锚点的渲染。
 
-### 自定义锚点 {#custom-anchors}
+### 自定义锚点 custom-anchors
 
 要为标题指定自定义锚点而不是使用自动生成的锚点，请向标题添加后缀：
 
 ```
-# 使用自定义锚点 {#my-anchor}
+# 使用自定义锚点
 ```
 
 这允许将标题链接为 `#my-anchor`，而不是默认的 `#使用自定义锚点`。
 
-## 链接 {#links}
+## 链接 links
 
 内部和外部链接都会被特殊处理。
 
-### 内部链接 {#internal-links}
+### 内部链接 internal-links
 
 内部链接将转换为单页导航的路由链接。此外，子目录中包含的每个 `index.md` 都会自动转换为 `index.html`，并带有相应的 URL `/`。
 
@@ -50,18 +50,18 @@ VitePress 带有内置的 Markdown 扩展。
 [bar - four](../bar/four.html) <!-- 或者可以添加 .html -->
 ```
 
-### 页面后缀 {#page-suffix}
+### 页面后缀 page-suffix
 
 默认情况下，生成的页面和内部链接带有 `.html` 后缀。
 
-### 外部链接 {#external-links}
+### 外部链接 external-links
 
 外部链接带有 `target="_blank" rel="noreferrer"`：
 
 - [vuejs.org](https://cn.vuejs.org)
 - [VitePress on GitHub](https://github.com/vuejs/vitepress)
 
-## frontmatter {#frontmatter}
+## frontmatter frontmatter
 
 [YAML 格式的 frontmatter](https://jekyllrb.com/docs/front-matter/) 开箱即用：
 
@@ -76,7 +76,7 @@ lang: en-US
 
 更多信息，参见 [frontmatter](../reference/frontmatter-config)。
 
-## GitHub 风格的表格 {#github-style-tables}
+## GitHub 风格的表格 github-style-tables
 
 **输入**
 
@@ -110,7 +110,7 @@ lang: en-US
 
 这里可以找到[所有支持的 emoji 列表](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.mjs)。
 
-## 目录表 (TOC) {#table-of-contents}
+## 目录表 (TOC) table-of-contents
 
 **输入**
 
@@ -124,11 +124,11 @@ lang: en-US
 
 可以使用 `markdown.toc` 选项配置 TOC 的呈现效果。
 
-## 自定义容器 {#custom-containers}
+## 自定义容器 custom-containers
 
 自定义容器可以通过它们的类型、标题和内容来定义。
 
-### 默认标题 {#default-title}
+### 默认标题 default-title
 
 **输入**
 
@@ -176,7 +176,7 @@ This is a dangerous warning.
 This is a details block.
 :::
 
-### 自定义标题 {#custom-title}
+### 自定义标题 custom-title
 
 可以通过在容器的 "type" 之后附加文本来设置自定义标题。
 
@@ -263,7 +263,7 @@ Wraps in a <div class="vp-raw">
   })
   ```
 
-## GitHub 风格的警报 {#github-flavored-alerts}
+## GitHub 风格的警报 github-flavored-alerts
 
 VitePress 同样支持以标注的方式渲染 [GitHub 风格的警报](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts)。它们和[自定义容器](#custom-containers)的渲染方式相同。
 
@@ -299,7 +299,7 @@ VitePress 同样支持以标注的方式渲染 [GitHub 风格的警报](https://
 > [!CAUTION]
 > 行为可能带来的负面影响。
 
-## 代码块中的语法高亮 {#syntax-highlighting-in-code-blocks}
+## 代码块中的语法高亮 syntax-highlighting-in-code-blocks
 
 VitePress 使用 [Shiki](https://github.com/shikijs/shiki) 在 Markdown 代码块中使用彩色文本实现语法高亮。Shiki 支持多种编程语言。需要做的就是将有效的语言别名附加到代码块的开头：
 
@@ -345,7 +345,7 @@ export default {
 
 还可以全局配置中自定义语法高亮主题。有关详细信息，参见 [`markdown` 选项](../reference/site-config#markdown)得到更多信息。
 
-## 在代码块中实现行高亮 {#line-highlighting-in-code-blocks}
+## 在代码块中实现行高亮 line-highlighting-in-code-blocks
 
 **输入**
 
@@ -441,7 +441,7 @@ export default {
 }
 ```
 
-## 代码块中聚焦 {#focus-in-code-blocks}
+## 代码块中聚焦 focus-in-code-blocks
 
 在某一行上添加 `// [!code focus]` 注释将聚焦它并模糊代码的其他部分。
 
@@ -473,7 +473,7 @@ export default {
 }
 ```
 
-## 代码块中的颜色差异 {#colored-diffs-in-code-blocks}
+## 代码块中的颜色差异 colored-diffs-in-code-blocks
 
 在某一行添加 `// [!code --]` 或 `// [!code ++]` 注释将会为该行创建 diff，同时保留代码块的颜色。
 
@@ -505,7 +505,7 @@ export default {
 }
 ```
 
-## 高亮“错误”和“警告” {#errors-and-warnings-in-code-blocks}
+## 高亮“错误”和“警告” errors-and-warnings-in-code-blocks
 
 在某一行添加 `// [!code warning]` 或 `// [!code error]` 注释将会为该行相应的着色。
 
@@ -537,7 +537,7 @@ export default {
 }
 ```
 
-## 行号 {#line-numbers}
+## 行号 line-numbers
 
 可以通过以下配置为每个代码块启用行号：
 
@@ -597,7 +597,7 @@ const line3 = 'This is line 3'
 const line4 = 'This is line 4'
 ```
 
-## 导入代码片段 {#import-code-snippets}
+## 导入代码片段 import-code-snippets
 
 可以通过下面的语法来从现有文件中导入代码片段：
 
@@ -666,7 +666,7 @@ const line4 = 'This is line 4'
 
 如果无法从文件扩展名推测出源语言，这将会很有帮助
 
-## 代码组 {#code-groups}
+## 代码组 code-groups
 
 可以像这样对多个代码块进行分组：
 
@@ -754,7 +754,7 @@ export default config
 
 :::
 
-## 包含 markdown 文件 {#markdown-file-inclusion}
+## 包含 markdown 文件 markdown-file-inclusion
 
 可以像这样在一个 markdown 文件中包含另一个 markdown 文件，甚至是内嵌的。
 
@@ -838,7 +838,7 @@ Can be created using `.foorc.json`.
 如果指定的文件不存在，这将不会产生错误。因此，在使用这个功能的时候请保证内容按预期呈现。
 :::
 
-## 数学方程 {#math-equations}
+## 数学方程 math-equations
 
 现在这是可选的。要启用它，需要安装 `markdown-it-mathjax3`，在配置文件中设置`markdown.math` 为 `true`：
 
@@ -883,7 +883,7 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 | $\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t}  = \vec{\mathbf{0}}$                                                          | curl of $\vec{\mathbf{E}}$ is proportional to the rate of change of $\vec{\mathbf{B}}$ |
 | $\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} = \frac{4\pi}{c}\vec{\mathbf{j}}    \nabla \cdot \vec{\mathbf{E}} = 4 \pi \rho$ | _wha?_                                                                                 |
 
-## 图片懒加载 {#image-lazy-loading}
+## 图片懒加载 image-lazy-loading
 
 通过在配置文件中将 `lazyLoading` 设置为 `true`，可以为通过 markdown 添加的每张图片启用懒加载。
 
@@ -898,7 +898,7 @@ export default {
 }
 ```
 
-## 高级配置 {#advanced-configuration}
+## 高级配置 advanced-configuration
 
 VitePress 使用 [markdown-it](https://github.com/markdown-it/markdown-it) 作为 Markdown 渲染器。上面提到的很多扩展功能都是通过自定义插件实现的。可以使用 `.vitepress/config.js` 中的 `markdown` 选项来进一步自定义 `markdown-it` 实例。
 
