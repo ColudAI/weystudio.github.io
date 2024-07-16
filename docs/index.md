@@ -15,7 +15,7 @@ hero:
       link: /
     - theme: alt
       text: 开发规范
-      link: /devplorer/index.md
+      link: /dev/index.md
     - theme: alt
       text: Team
       link: /index/team.md
