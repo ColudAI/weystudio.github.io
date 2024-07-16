@@ -41,8 +41,8 @@ jobs:
           cache: npm # 或 pnpm / yarn
       - name: 安装Node包VitePress
         run: |
-        npm i -g vitepress
-        npm add -D vitepress
+          npm i -g vitepress
+          npm add -D vitepress
       - name: 安装Page
         uses: actions/configure-pages@v4
       - name: 安装依赖项，配置package-lock.json
