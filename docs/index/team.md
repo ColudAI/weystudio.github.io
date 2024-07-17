@@ -44,11 +44,6 @@ const members = [
     ]
   },
   {
-    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=399551261&spec=640&img_type=jpg',
-    name: '劳资去泥的',
-    title: '室长对象'
-  },
-  {
     avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=1280993766&spec=640&img_type=jpg',
     name: '刘钦宇',
     title: '五年级的2B 万能程序员',
@@ -69,7 +64,107 @@ const members = [
   {
     avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=2275475104&spec=640&img_type=jpg',
     name: '钟昊阳',
-    title: 'ColudAI联合创始人'
+    title: 'ColudAI联合创始人[离开]'
+  },
+  {
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=3140529679&spec=640&img_type=jpg',
+    name: '龙apan之韵',
+    title: 'App部门'
+  },
+  {
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=3220257676&spec=640&img_type=jpg',
+    name: 'api.fuxsto.cn',
+    title: '指导工程师'
+  },
+  {
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=1494266056&spec=640&img_type=jpg',
+    name: '彬彬有礼',
+    title: '云服务'
+  },
+  {
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=2405806947&spec=640&img_type=jpg',
+    name: '登登←一只菜坤',
+    title: 'CoCo'
+  },
+  {
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=3551623996&spec=640&img_type=jpg',
+    name: '旧梦残颜',
+    title: 'SAI主管'
+  },
+  {
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=3550684246&spec=640&img_type=jpg',
+    name: 'Impan',
+    title: '未知，等待完善'
+  },
+  {
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=615769184&spec=640&img_type=jpg',
+    name: '冷面小青龙',
+    title: '安全业务指导'
+  },
+  {
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=1908809023&spec=640&img_type=jpg',
+    name: 'Loading...',
+    title: '未知，等待完善...'
+  },
+  {
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=2678124929&spec=640&img_type=jpg',
+    name: '兰熙不是兰溪 ~嗷呜',
+    title: 'HK 负责人|Furry晚期'
+  },
+  {
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=893919047&spec=640&img_type=jpg',
+    name: '奋斗',
+    title: '前端工程师'
+  },
+  {
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=3030477311&spec=640&img_type=jpg',
+    name: '哦，蛋仔派对！',
+    title: 'CoCo | 蛋仔派对晚期'
+  },
+  {
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=3486325199&spec=640&img_type=jpg',
+    name: '谬',
+    title: '前端'
+  },
+  {
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=3640034275&spec=640&img_type=jpg',
+    name: 'Sinpro',
+    title: '安全'
+  },
+  {
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=3803746525&spec=640&img_type=jpg',
+    name: '石榴 Grant·Pome',
+    title: '整活部|TK Forum'
+  },
+  {
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=3803786563&spec=640&img_type=jpg',
+    name: '石榴（群废物，正在摸鱼中）',
+    title: '设计部 | 违规的训练师都到我嘴里！'
+  },
+  {
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=3463448740&spec=640&img_type=jpg',
+    name: '数学不及格不改名',
+    title: '指导-加密🔐'
+  },
+  {
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=1632287168&spec=640&img_type=jpg',
+    name: '夏晨吖',
+    title: '云服务'
+  },
+  {
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=3662659718&spec=640&img_type=jpg',
+    name: '星河|哆啦A梦',
+    title: 'SAI技术部'
+  },
+  {
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=3224063731&spec=640&img_type=jpg',
+    name: '有为骚年',
+    title: '未知'
+  },
+  {
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=3408367085&spec=640&img_type=jpg',
+    name: '　',
+    title: 'SAI技术部 | 透明头像'
   }
 
 ]
@@ -85,6 +180,11 @@ const orgs = [
     name: 'SuperLinkStudio',
     org:"Coludai AI合作商",
     orgLink:"https://superlinkstudio.top/"
+  },
+  {
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=927953637&spec=640&img_type=jpg',
+    name: '  ',
+    title: '合作'
   }
 ]
 </script>
