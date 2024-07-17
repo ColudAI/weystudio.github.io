@@ -7,7 +7,7 @@ hero:
   text: "Coludai 官方开发文档"
   #tagline: 文档
   image:
-   src: https://img2.imgtp.com/2024/05/25/WNdbDY2s.png
+   src: https://krseoul.imgtbl.com/i/2024/06/30/6681286903006.png
    alt: logo
   actions:
     - theme: brand
