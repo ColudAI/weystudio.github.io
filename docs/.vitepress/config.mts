@@ -23,19 +23,30 @@ export default defineConfig({
 
     sidebar: {
       //示例-开始
-      '/index/':[
+      '/dev/':[
         {
           text: '开始',
           items: [
-            { text: '开发与规范', link: '/index/开发与规范.md' },
+            { text: '开发', link: '/dev/index.md' },
+            { text: '基础文档', link: '/dev/MainDocs.md' },
             // { text: 'Getting Started', link: '/getting-started' } 
             // { text: '新文档', link: '/new-document' } // 新增的文档链接
         ]
         },
         { text: 'Team', link: '/index/team.md' }
-      ]
+      ],
+      '/index/':[
+        {
+          text: '开始',
+          items: [
+            { text: '开发', link: '/dev/index.md' },
+            // { text: 'Getting Started', link: '/getting-started' } 
+            // { text: '新文档', link: '/new-document' } // 新增的文档链接
+        ]
+        },
+        { text: 'Team', link: '/index/team.md' }
+      ],
       //示例-结束
-,
       //{ text: 'Team', link: '/index/team.md' },
       //{ text: '关于', link: '/index/开发与规范.md' }
     },
