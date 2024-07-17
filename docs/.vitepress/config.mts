@@ -10,7 +10,7 @@ export default defineConfig({
     'source/:page': 'destination/:page'
   },
   themeConfig: {
-    logo: 'https://img2.imgtp.com/2024/05/25/WNdbDY2s.png',
+    logo: 'https://krseoul.imgtbl.com/i/2024/06/30/6681286903006.png',
     search: {
       provider: 'local'
     },
