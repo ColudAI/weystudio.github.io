@@ -53,7 +53,8 @@ curl --location --request POST 'https://email.coludai.cn/email/login' \
 :::
 ## 2.MD5加密
 适用于ColudAI内部项目例如:ColudAI账号...
-```javascript
+:::code-group
+```javascript [JavaScript]
 var myHeaders = new Headers();
 myHeaders.append("User-Agent", "Apifox/1.0.0 (https://apifox.com)");
 
@@ -68,6 +69,17 @@ fetch("https://md5.coludai.cn/md5?str=内容", requestOptions)
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
 ```
+```Python [Python]
+import requests
+Text = "填入未加密文本"  # 未加密的文本
+res = requests.get(f"https://md5.coludai.cn/md5?str={text}")  # 发送GET请求
+print(res.text) # 输出加密后内容
+```
+```tip
+Tip:
+    请求得到md5值纯纯多此一举，不如好好调用JS库/Python模块
+```
+:::
 ## 3.
 > 💡 Tips：输入`/uu`
 

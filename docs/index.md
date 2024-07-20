@@ -13,6 +13,9 @@ hero:
     - theme: brand
       text: 主页
       link: /
+    - theme: brand
+      text: Commit提交者
+      link: /commit.md
     - theme: alt
       text: 开发规范
       link: /dev/index.md
