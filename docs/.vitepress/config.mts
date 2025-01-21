@@ -10,7 +10,7 @@ export default defineConfig({
     'source/:page': 'destination/:page'
   },
   themeConfig: {
-    logo: 'https://krseoul.imgtbl.com/i/2024/06/30/6681286903006.png',
+    logo: 'https://coludai.cn/data_img/Logo.png',
     search: {
       provider: 'local'
     },
@@ -53,7 +53,6 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/WeyStudio/weystudio.github.io' },
-      { icon: 'twitter', link: 'https://twitter.com/Colud_AI_SAI'},
       { icon: 'twitter', link: 'https://twitter.com/LSA141431'}
     ]
   }
