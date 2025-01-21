@@ -135,6 +135,14 @@ const members = [
     avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=3332760455&spec=640&img_type=jpg',
     name: 'Enzyme YouMing 酶游明',
     title: '前端工程师'
+  },
+    {
+    avatar: 'https://coludai.cn/data_img/Logo.png',  // 可以使用一个占位符图片，或自定义头像
+    name: '您梦寐以求的工作场所',
+    title: '点击加入我们',
+    links: [
+      { icon: 'link', link: 'http://coludai.cn/careers' } // 在这里设置链接地址
+    ]
   }
 ]
 const orgs = [
