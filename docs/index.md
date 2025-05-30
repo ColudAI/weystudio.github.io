@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Coludai Docs"
-  text: "Coludai 官方开发文档"
+  name: "ColudAI Docs"
+  text: "ColudAI 官方开发文档"
   #tagline: 文档
   image:
    src: https://coludai.cn/data_img/Logo.png
@@ -24,13 +24,13 @@ hero:
       link: /index/team.md
 
 features:
-  - title: ColudAI-SAI
+  - title: SAI
     details: 与未来对话，探索无限可能
     link: https://sai.coludai.cn
-  - title: TK Forumleft
-    details: 新一代互联网技术交流平台
-    link: https://Tk.coludai.cn
-  - title: CodePro
-    details: 新一代图形化编辑器
-    link: https://codepro.coludai.cn
+  - title: 开发者社区
+    details: 开发者交流平台
+    link: https://community.coludai.cn
+  - title: 服务状态
+    details: ColudAI服务状态
+    link: https://now.coludai.cn
 ---
