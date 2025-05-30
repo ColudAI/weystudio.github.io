@@ -36,7 +36,7 @@ const members = [
   //
   {
     avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=2485108343&spec=640&img_type=jpg',
-    name: 'Liu Shi an',
+    name: '刘时安',
     title: '室长',
     links: [
       { icon: 'github', link: 'https://github.com/Lt2023' },
@@ -53,8 +53,8 @@ const members = [
   },
   {
     avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=3530284400&spec=640&img_type=jpg',
-    name: '「云服部」一个疯了的氢氧化钠',
-    title: '云服部 主管'
+    name: '一个疯了的氢氧化钠',
+    title: '副室长'
   },
   {
     avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=210308731&spec=640&img_type=jpg',
@@ -114,12 +114,17 @@ const members = [
   {
     avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=3486325199&spec=640&img_type=jpg',
     name: '谬',
-    title: '前端'
+    title: '前端工程师'
+  },
+    {
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=3174251894&spec=640&img_type=jpg',
+    name: '小宏XeLa',
+    title: '前端工程师'
   },
   {
     avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=3803746525&spec=640&img_type=jpg',
     name: '石榴 Grant·Pome',
-    title: '整活部|TK Forum'
+    title: '整活部|宣传片'
   },
   {
     avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=3803786563&spec=640&img_type=jpg',
@@ -129,7 +134,7 @@ const members = [
   {
     avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=3463448740&spec=640&img_type=jpg',
     name: '数学不及格不改名',
-    title: '指导-加密🔐'
+    title: '指导'
   },
   {
     avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=3332760455&spec=640&img_type=jpg',
